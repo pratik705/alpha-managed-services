@@ -15,7 +15,7 @@ spec:
   project: alpha-rke-cluster
   source:
     repoURL: https://github.com/vish6760/alpha-managed-services.git
-    path: alpha-rke-cluster/overlays/rackspace-system/namespace
+    path: alpha-rke-cluster/overlays/namespace
     targetRevision: HEAD
 
   destination:
