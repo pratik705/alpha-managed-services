@@ -5,8 +5,9 @@ namespace: rackspace-system
 
 resources:
     - '../../../../mpk-apps/velero/'
-    - './backupstoragelocation.yaml'
     - './encrypted-secret.yaml'
 
 patchesStrategicMerge:
     - './deployment.yaml'
+    - './backupstoragelocation.yaml'
+
