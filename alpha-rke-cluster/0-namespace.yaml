@@ -19,7 +19,7 @@ spec:
     targetRevision: HEAD
 
   destination:
-    name: alpha-rke-cluster
+    name: in-cluster
 
   syncPolicy:
     automated:
